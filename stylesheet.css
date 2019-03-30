@@ -1,0 +1,58 @@
+* {margin:0; 
+   padding:0;}
+
+body {width:800px;
+      margin:auto;
+      height:700px;    
+      border: 2px solid grey;
+      font-family: 'Roboto Slab', serif;}
+
+header {width:720px;
+        margin:auto;
+        margin-top: 40px;
+        background-image: url(images.jpg);}
+
+.photo {width:15%; 
+        height: 145px;
+        margin-right: 25px;
+        float:left;        }
+
+h1 {font-weight: normal;
+    color:crimson;
+    font-family: 'Crimson Text', serif;}
+
+.title{font-size: 20px;
+       font-weight: lighter;
+       color:crimson;}
+
+p, ul {font-size: 15px;}
+
+.personal-info {list-style-type:none;
+                height:45px;
+                background-color:rgb(235, 195, 173);
+                margin-top: 10px;
+                margin-bottom: 10px;}
+      
+.personal-info-list {display:block;
+                     float:left;
+                     width:196px;
+                     text-align: center;
+                     padding-top: 10px;
+                     font-size:16px; }
+
+li a {color:black;}
+
+h2 {font-size: 20px;
+    line-height: 250%;
+    text-decoration: underline overline;
+    color: crimson;
+    font-family: 'Crimson Text', serif;}
+
+h2:hover {font-size: 21px;}
+
+main {margin-bottom: 40px;}
+
+.resume-parts {width:40%;
+               float: left;
+               margin:20px 40px 0px 40px;
+               background-image: url(images.jpg);}
